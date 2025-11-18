@@ -59,12 +59,12 @@ void main() {
 
     ArrayList<Integer> bestDays = new ArrayList<>();
 
-    for (int days : dailySteps) {
+    /*for (int days : dailySteps) {
         if (days >= goals.get("dailyGoal")) {
             bestDays.add(days);
         }
     }
-    System.out.println("Дни выше цели: " + bestDays);
+    System.out.println("Дни выше цели: " + bestDays);*/
 
     boolean hasLazyDays = false;
 
